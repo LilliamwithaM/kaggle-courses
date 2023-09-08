@@ -8,9 +8,10 @@ def sign(n):
     else:return 0
     
 sign(0)
+print(sign)
 
 #2
-def to_smash(total_candies):
+def to_smash1(total_candies):
     """Return the number of leftover candies that must be smashed after distributing
     the given number of candies evenly between 3 friends.
     
@@ -19,7 +20,9 @@ def to_smash(total_candies):
     """
     print("Splitting", total_candies, "candies")
     return total_candies % 3
-to_smash(91)
+to_smash1(91)
+print(to_smash1)
+
 
 def to_smash(total_candies):
     """Return the number of leftover candies that must be smashed after distributing
@@ -36,6 +39,7 @@ def to_smash(total_candies):
         return total_candies % 3
 to_smash(91)
 to_smash(1)
+print(to_smash)
 
 #3
 def prepared_for_weather(have_umbrella, rain_level, have_hood, is_workday):
@@ -59,10 +63,13 @@ def is_negative(number):
         return True
     else:
         return False
+pass
+print(is_negative)
 
 def concise_is_negative(number):
     return (True if number<0 else False)
 pass 
+print(concise_is_negative)
 
 #5a
 def wants_all_toppings(ketchup, mustard, onion):
@@ -70,6 +77,7 @@ def wants_all_toppings(ketchup, mustard, onion):
     """
     return(True if (ketchup==True and mustard == True and onion==True) else False)
 pass
+print(wants_all_toppings)
 
 #5b
 def wants_plain_hotdog(ketchup, mustard, onion):
@@ -77,6 +85,8 @@ def wants_plain_hotdog(ketchup, mustard, onion):
     """
     return(True if (ketchup==False and mustard == False and onion==False) else False)
 pass
+
+print(wants_plain_hotdog)
 
 #5c
 def exactly_one_sauce(ketchup, mustard, onion):
@@ -89,7 +99,7 @@ def exactly_one_sauce(ketchup, mustard, onion):
         return True
     return False
 pass
-
+print(exactly_one_sauce)
 #6
 def exactly_one_topping(ketchup, mustard, onion):
     """Return whether the customer wants exactly one of the three available toppings
@@ -111,3 +121,5 @@ def exactly_one_topping(ketchup, mustard, onion):
 pass
 
 exactly_one_topping(True, True, True)
+
+print(exactly_one_topping)

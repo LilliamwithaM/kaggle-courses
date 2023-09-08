@@ -28,6 +28,7 @@ def is_valid_zip(zip_code):
     else:
         return False
 pass
+print(is_valid_zip)
 
 #2
 def word_search(doc_list, keyword):
@@ -61,6 +62,7 @@ def word_search(doc_list, keyword):
         return [i]
     return lista
 pass
+print(word_search)
 
 #3
 def multi_word_search(doc_list, keywords):
@@ -79,3 +81,4 @@ def multi_word_search(doc_list, keywords):
         keyword_to_indices[keyword] = word_search(doc_list, keyword)
     return keyword_to_indices
 pass
+print(multi_word_search)

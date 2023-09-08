@@ -42,4 +42,5 @@ carol_candies = 109
 # involving alice_candies, bob_candies, and carol_candies
 all_candies =(alice_candies + bob_candies + carol_candies)
 to_smash = (all_candies % 3)
-print ()
+print (all_candies)
+print(to_smash)

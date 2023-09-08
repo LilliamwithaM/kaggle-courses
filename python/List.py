@@ -7,6 +7,7 @@ def select_second(L):
         return L[1]
     else: return None
 pass
+print(select_second)
 
 #2
 def losing_team_captain(teams):
@@ -16,6 +17,7 @@ def losing_team_captain(teams):
     nlist=list(reversed(teams))
     return nlist[0][1]
 pass
+print(losing_team_captain)
 
 #3
 def purple_shell(racers):
@@ -32,6 +34,7 @@ def purple_shell(racers):
     racers[0]=p2
     racers[-1]=p1
 pass
+print(purple_shell)
 
 #4
 a = [1, 2, 3]
@@ -41,7 +44,7 @@ d = [1, 2, 3][1:]
 # Put your predictions in the list below. Lengths should contain 4 numbers, the
 # first being the length of a, the second being the length of b and so on.
 lengths = [3,2,0,2]
-
+print(lengths)
 #5
 def fashionably_late(arrivals, name):
     """Given an ordered list of arrivals to the party and a name, return whether the guest with that
@@ -55,3 +58,4 @@ def fashionably_late(arrivals, name):
     else:
         return False
 pass
+print(fashionably_late)

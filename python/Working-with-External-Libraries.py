@@ -12,6 +12,7 @@ def prettify_graph(graph):
 graph = jimmy_slots.get_graph()
 prettify_graph(graph)
 graph
+print(prettify_graph)
 
 #2
 from learntools.python.luigi_analysis import full_dataset
@@ -34,6 +35,8 @@ def best_items(racers):
                 i+1, len(racers), racer['name'])
                 )
     return winner_item_counts
+pass
+print(best_items)
 
 # Try analyzing the imported full dataset
 best_items(full_dataset)
@@ -64,6 +67,8 @@ def hand_total(hand):
         total += 10
         aces -= 1
     return total
+pass
+print(hand_total)
 
 def blackjack_hand_greater_than(hand_1, hand_2):
     """
@@ -94,3 +99,4 @@ def blackjack_hand_greater_than(hand_1, hand_2):
     total_2 = hand_total(hand_2)
     return total_1 <= 21 and (total_1 > total_2 or total_2 > 21)
 pass
+print(blackjack_hand_greater_than)

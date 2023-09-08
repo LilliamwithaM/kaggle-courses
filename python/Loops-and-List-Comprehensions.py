@@ -1,5 +1,5 @@
 #1
-def has_lucky_number(nums):
+def has_lucky_number1(nums):
     """Return whether the given list of numbers is lucky. A lucky list contains
     at least one number divisible by 7.
     """
@@ -8,8 +8,9 @@ def has_lucky_number(nums):
             return True
         else:
             return False
-        
-def has_lucky_number(nums):
+pass
+print(has_lucky_number1)
+def has_lucky_number2(nums):
     """Return whether the given list of numbers is lucky. A lucky list contains
     at least one number divisible by 7.
     """
@@ -21,7 +22,8 @@ def has_lucky_number(nums):
         return True
     else:
         return False
-    
+pass
+print(has_lucky_number2)
 #2
 def elementwise_greater_than(L, thresh):
     """Return a list with the same length as L, where the value at index i is 
@@ -39,7 +41,7 @@ def elementwise_greater_than(L, thresh):
         
     return nl
 pass
-
+print(elementwise_greater_than)
 #3
 def menu_is_boring(meals):
     """Given a list of meals served over some period of time, return True if the
@@ -50,7 +52,7 @@ def menu_is_boring(meals):
             return True
     return False
 pass
-
+print(menu_is_boring)
 #4
 def estimate_average_slot_payout(n_runs):
     """Run the slot machine n_runs times and return the average net profit per run.
